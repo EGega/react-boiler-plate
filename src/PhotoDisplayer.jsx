@@ -9,7 +9,7 @@ import './PhotoDisplayer.css';
         <li key={large.substring(33, 41)}  className="li-name">
           <div className="img-container">
             <img src={large} alt={photographer}></img>
-            <p>{photographer}</p>
+            <p className="paragraph">{photographer}</p>
           </div>
         </li>
       ))}

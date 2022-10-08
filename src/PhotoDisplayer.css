@@ -60,7 +60,7 @@ transform: scale(1.2);
     height: 350px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 670px) {
   .photo {
     
     grid-template-columns: repeat(1, 1fr);

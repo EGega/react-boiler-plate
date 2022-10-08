@@ -38,6 +38,18 @@ transform: scale(1.2);
   list-style-type: "";
 }
 
+
+@media (max-width: 1200px) {
+  .photo {
+    
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .img-container img {
+    height: 350px;
+  }
+}
+
 @media (max-width: 1000px) {
   .photo {
     
@@ -56,6 +68,6 @@ transform: scale(1.2);
   }
   .img-container img {
     height: 350px;
-    width: 80%;
+    width: 100%;
   }
 }
